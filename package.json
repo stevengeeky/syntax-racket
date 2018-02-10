@@ -2,7 +2,7 @@
     "name": "syntax-racket",
     "displayName": "syntax-racket",
     "description": "Syntax highlighting for Racket",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "sporiley",
     "repository": {
         "type": "github",
