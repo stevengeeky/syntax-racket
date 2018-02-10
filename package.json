@@ -1,0 +1,31 @@
+{
+    "name": "syntax-racket",
+    "displayName": "syntax-racket",
+    "description": "Syntax highlighting for Racket",
+    "version": "0.0.1",
+    "publisher": "sporiley",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/stevengeeky/syntax-racket"
+    },
+    "icon": "large.png",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "racket",
+            "aliases": ["Racket", "racket"],
+            "extensions": [".rkt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "racket",
+            "scopeName": "source.racket",
+            "path": "./syntaxes/racket.tmLanguage.json"
+        }]
+    }
+}
