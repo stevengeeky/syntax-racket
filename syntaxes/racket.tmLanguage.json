@@ -50,15 +50,6 @@
 				"name": "constant.character.escape",
 				"match": "\\\\."
 			}]
-		},
-		"brackets": {
-			"name": "string.quoted.double.racket",
-			"begin": "<",
-			"end": ">",
-			"patterns": [{
-				"name": "constant.character.escape",
-				"match": "\\\\."
-			}]
 		}
 	},
 	"scopeName": "source.racket"
